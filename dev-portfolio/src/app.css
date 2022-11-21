@@ -1,0 +1,108 @@
+:root {
+  --main-color: #2a2929;
+  --card-color: #5f545f;
+  --sub-color: #3d223d;
+  --accent: #987fbb;
+  --text-color: #eaeaea;
+  --con-color: #77b599;
+  --pop-color: #e5bde9;
+  --dub-color: #d0afe6;
+
+  --priFont: "Bebas Neue", cursive;
+  --secFont: "Kanit", sans-serif;
+}
+
+/* Set basic background */
+body {
+  /* background-image: url("../img/Nodes.svg"); */
+  background-color: #2a2929;
+  color: #eaeaea;
+  font-family: "Bebas Neue", cursive;
+}
+
+/* link color */
+a {
+  font-family: "Kanit", sans-serif;
+  color: var(--con-color);
+  text-decoration: none;
+}
+
+header {
+  padding-top: 3%;
+}
+header::before {
+  content: "";
+  top: 3%;
+  width: 100%;
+  height: 10%;
+  filter: blur(3rem);
+  position: absolute;
+  z-index: 0;
+  background: var(--text-color);
+  opacity: 40%;
+}
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--con-color);
+}
+header menu {
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  z-index: 2;
+  right: calc(10% / 4);
+}
+header menu ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+header menu ul li {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.hero {
+  background-color: transparent;
+  width: 100%;
+  height: 100vh;
+  padding-top: -5%;
+  position: relative;
+  top: 0rem;
+  border-top: 0.1rem dashed var(--dub-color);
+  border-bottom: 0.1rem dashed var(--con-color);
+}
+
+.hello-box {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  right: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+  font-size: 2em;
+  background-color: transparent;
+  text-align: center;
+  flex-direction: row;
+}
+
+.intro {
+  font-size: 100%;
+  font-weight: 800;
+  line-height: 1.4em;
+  letter-spacing: 0.8rem;
+
+  overflow: hidden;
+  height: 100%;
+  margin-inline: auto;
+  text-align: center;
+  padding: 10%;
+  flex-wrap: wrap;
+  white-space: wrap;
+  animation: typing 2s steps(28);
+}
