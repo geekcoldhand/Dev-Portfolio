@@ -1,34 +1,61 @@
-import React from "react";
+import { React, useState } from "react";
 import Cards from "./Cards";
 
 export default function Projects() {
-  const projects = [
-    // whosApp project
+  const allProjects = [
+    // WhosApp project
     {
-      projectName: "WhosApp",
-      logoImg: "",
-      demoGif: "",
-      gitLink: "",
-      siteLink: "",
-      descript: "",
+      projectName: "WhO's App",
+      logoImg: "🦉",
+      demoGif: "../../public/img/demos/Who's App.demo.gif",
+      gitLink: "https://github.com/geekcoldhand/Whos-App",
+      siteLink: "https://whooooos-app.herokuapp.com/login",
+      descript: "Anonymous real-time chatting application",
     },
-    // project
+    // Wine N Dine project
     {
-      projectName: "",
-      logoImg: "",
-      demoGif: "",
-      gitLink: "",
-      siteLink: "",
-      descript: "",
+      projectName: "Wine N Dine",
+      logoImg: "🍷",
+      demoGif: "../../",
+      gitLink: "https://github.com/parsonjd/Wine-Dine",
+      siteLink: "https://parsonjd.github.io/Wine-Dine/",
+      descript: "Food and cocktail search engine filter",
+    },
+    // Weather Wheel
+    {
+      projectName: "Weather Wheel",
+      logoImg: "☀️",
+      demoGif: "../../public/img/demos/Weather-Wheel-Demo.gif",
+      gitLink: "https://github.com/geekcoldhand/Weather-Color-Wheel",
+      siteLink: "https://geekcoldhand.github.io/Weather-Color-Wheel/",
+      descript: "Open weather API",
+    },
+    // Two-Due
+    {
+      projectName: "Two-Due",
+      logoImg: "📅",
+      demoGif: "../../public/img/demos/two-due.gif",
+      gitLink: "https://github.com/geekcoldhand/TwoDue-Task-Manager",
+      siteLink: "https://geekcoldhand.github.io/TwoDue-Task-Manager/",
+      descript: "A simple TODO application",
+    },
+    // Js quiz
+    {
+      projectName: "Dynamic JS Quiz",
+      logoImg: "📝",
+      demoGif: "../../public/img/demos/Js-quiz.gif",
+      gitLink: "https://github.com/geekcoldhand/js-dynamic-quiz",
+      siteLink: "https://geekcoldhand.github.io/js-dynamic-quiz/",
+      descript: "Timed javascript quiz",
     },
   ];
 
+  const [projects, setProject] = useState(allProjects);
   return (
-    <div className="content-card-style project-box">
-      {/* all project cards */}
-      {projects.map((i) => {
-        <Cards info={i} />;
-      })}
-    </div>
+    <section className="space-section all-projects">
+      <div className="content-card-style project-box">
+        <Cards projectCards={projects} />
+      </div>
+    </section>
   );
 }
