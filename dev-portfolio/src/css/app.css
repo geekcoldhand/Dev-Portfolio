@@ -14,7 +14,7 @@
 
 /* Set basic background */
 body {
-  background-image: url("../public/img/Nodes.svg");
+  background-image: url("../../public/img/Nodes.svg");
   color: #eaeaea;
   font-family: "Bebas Neue", cursive;
 }
@@ -158,6 +158,10 @@ main {
   gap: 2%;
   width: fit-content;
 }
+.space-section {
+  padding-block: 3%;
+  padding-inline: 5%;
+}
 
 .my-card {
   border-radius: 15rem;
@@ -202,7 +206,7 @@ main {
   object-fit: contain;
   width: 100px;
   margin-inline: auto;
-  margin-bottom: 10%;
+
   font-size: 6rem;
 }
 .card-text-box-p {
@@ -230,9 +234,45 @@ main {
   margin-block: 8%;
   margin-inline: auto;
   width: 100%;
-  padding: 5%;
 }
 
+.card-body {
+  flex: 1 1 auto;
+  padding: 0rem 3rem;
+}
+.hide-card {
+  opacity: 0;
+}
+
+.show-card {
+  display: flex;
+  animation: fadeUp 1s ease-in;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* FOOTER */
+/* keep at bottom */
+footer {
+  border-top: 0.1rem dashed var(--con-color);
+  display: flex;
+
+  position: relative;
+  padding-block: 2%;
+
+  color: var(--pop-color);
+  justify-content: center;
+  filter: drop-shadow(0rem 0.3rem 0.3rem var(--pop-color));
+  background-color: #2a2929;
+}
 /* screens above */
 @media (min-width: 768px) {
   .about-box {

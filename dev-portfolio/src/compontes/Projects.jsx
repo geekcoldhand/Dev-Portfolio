@@ -10,7 +10,7 @@ export default function Projects() {
       demoGif: "../../public/img/demos/Who's App.demo.gif",
       gitLink: "https://github.com/geekcoldhand/Whos-App",
       siteLink: "https://whooooos-app.herokuapp.com/login",
-      descript: "Anonymous real-time chatting application",
+      descript: "Real-time chatting application",
     },
     // Wine N Dine project
     {
@@ -19,7 +19,7 @@ export default function Projects() {
       demoGif: "../../",
       gitLink: "https://github.com/parsonjd/Wine-Dine",
       siteLink: "https://parsonjd.github.io/Wine-Dine/",
-      descript: "Food and cocktail search engine filter",
+      descript: "Food & Cocktail filter search",
     },
     // Weather Wheel
     {
