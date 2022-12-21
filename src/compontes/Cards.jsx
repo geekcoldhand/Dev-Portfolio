@@ -8,9 +8,9 @@ export default function Cards(props) {
     <div id="card-list" className="cardList">
       {card.map((card) => (
         <div className="cards-box">
-          <div className="my-card card py-5 px-2">
-            <button className="card-button p-4" href={card.gitLink}>
-              <div className="repo-icon p-2">
+          <div className="my-card card py-5">
+            <button className="card-button p-1" href={card.gitLink}>
+              <div className="repo-icon ">
                 <svg
                   className="button-svg w-6 h-6"
                   fill="none"

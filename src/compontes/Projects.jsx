@@ -52,7 +52,10 @@ export default function Projects() {
 
   const [projects, setProject] = useState(allProjects);
   return (
-    <section id="projects" className="space-section all-projects">
+    <section
+      id="projects"
+      className="space-section all-projects d-flex justify-content-center"
+    >
       <div className="content-card-style project-box">
         <Cards projectCards={projects} />
       </div>
