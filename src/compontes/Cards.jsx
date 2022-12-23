@@ -1,11 +1,36 @@
-import { React } from "react";
+import React, { useRef, useEffect } from "react";
 
 export default function Cards(props) {
   const card = props.projectCards;
-  console.log("returns array ", card);
+  const element = useRef(null);
+
+  // console.log("returns array ", card);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      console.log("element entry", entries);
+      entries.forEach((entry) => {
+        //     // console.log("isIntersecting: ", entry.isIntersecting);
+
+        if (entry.isIntersecting) {
+          console.log("card removed");
+          entry.target.classList.remove("hide-card");
+          entry.target.classList.add("show-card");
+          console.log("card shown");
+        }
+      });
+    });
+
+    console.log("element.current", element.current);
+    observer.observe(element.current);
+
+    return () => {
+      observer.unobserve(element.current);
+    };
+  }, []);
 
   return (
-    <div id="card-list" className="cardList">
+    <div id="card-list" className="cardList" key={card.key} ref={element}>
       {card.map((card) => (
         <div className="cards-box">
           <div className="my-card card py-5">
