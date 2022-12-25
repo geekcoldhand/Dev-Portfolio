@@ -62,6 +62,25 @@ export default function Projects() {
       id="projects"
       className="space-section all-projects d-flex justify-content-center"
     >
+      <h2 class="space-section">
+        {" "}
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          width="30px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+          ></path>
+        </svg>
+        Projects
+      </h2>
       <Cards key={projects.id} projectCards={projects} />
     </section>
   );
