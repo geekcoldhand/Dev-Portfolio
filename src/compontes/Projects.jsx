@@ -11,7 +11,7 @@ export default function Projects() {
       gitLink: "https://github.com/geekcoldhand/Whos-App",
       siteLink: "https://whooooos-app.herokuapp.com/login",
       descript: "Real-time chatting application",
-      key: 1223,
+      id: 1223,
     },
     // Wine N Dine project
     {
@@ -21,7 +21,7 @@ export default function Projects() {
       gitLink: "https://github.com/parsonjd/Wine-Dine",
       siteLink: "https://parsonjd.github.io/Wine-Dine/",
       descript: "Food & Cocktail filter search",
-      key: 23344,
+      id: 23344,
     },
     // Weather Wheel
     {
@@ -31,7 +31,7 @@ export default function Projects() {
       gitLink: "https://github.com/geekcoldhand/Weather-Color-Wheel",
       siteLink: "https://geekcoldhand.github.io/Weather-Color-Wheel/",
       descript: "Open weather API",
-      key: 34322,
+      id: 34322,
     },
     // Two-Due
     {
@@ -41,7 +41,7 @@ export default function Projects() {
       gitLink: "https://github.com/geekcoldhand/TwoDue-Task-Manager",
       siteLink: "https://geekcoldhand.github.io/TwoDue-Task-Manager/",
       descript: "A simple TODO application",
-      key: 45432,
+      id: 45432,
     },
     // Js quiz
     {
@@ -51,7 +51,7 @@ export default function Projects() {
       gitLink: "https://github.com/geekcoldhand/js-dynamic-quiz",
       siteLink: "https://geekcoldhand.github.io/js-dynamic-quiz/",
       descript: "Timed javascript quiz",
-      key: 56343,
+      id: 56343,
     },
   ];
 
@@ -62,7 +62,7 @@ export default function Projects() {
       id="projects"
       className="space-section all-projects d-flex justify-content-center"
     >
-      <Cards projectCards={projects} />
+      <Cards key={projects.id} projectCards={projects} />
     </section>
   );
 }

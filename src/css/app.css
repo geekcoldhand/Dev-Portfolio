@@ -14,7 +14,7 @@
 
 /* Set basic background */
 body {
-  background-image: url("../../public/img/Nodes.svg");
+  background-image: url("/img/Nodes.svg");
   color: #eaeaea;
   font-family: "Bebas Neue", cursive;
 }
@@ -263,6 +263,50 @@ main {
   100% {
     opacity: 1;
   }
+}
+
+/* About Section under .about */
+.about {
+  border-top: 0.1rem dashed var(--pop-color);
+  background-color: var(--main-color);
+  text-align: center;
+  line-height: 1.2;
+  border-bottom: 0.1rem dashed var(--pop-color);
+}
+.about p {
+  color: rgb(226, 239, 232);
+  font-size: 1.1rem;
+}
+.about h2 {
+  color: var(--con-color);
+}
+.about img {
+  width: 100%;
+
+  overflow: visible;
+  border-radius: 85%;
+  margin: 3%;
+  box-shadow: 0rem 0rem 2.2rem var(--text-color),
+    0rem 0rem 0rem 0.3rem var(--con-color),
+    0rem 0rem 0rem 0.6rem var(--pop-color), 0rem 0rem 0rem 0.9rem var(--accent);
+}
+.about-img-figure {
+  width: 22%;
+  height: 22%;
+}
+.about-box {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.about ul li {
+  list-style-type: decimal;
+}
+
+.my-about-img {
+  background-image: url("/img/me.png");
 }
 
 /* FOOTER */
