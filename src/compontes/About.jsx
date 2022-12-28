@@ -8,8 +8,7 @@ export default function About() {
   return (
     <section id="about" className="space-section about">
       <div className="">
-        <h2 className=" space-section">
-          {" "}
+        <h2 className=" section-header space-section">
           <svg
             className="w-6 h-6"
             fill="none"
@@ -28,38 +27,24 @@ export default function About() {
           About
         </h2>
 
-        <div className="about-box mt-4 p-2">
-          <p className="pr-3">
-            I'm a software engineer and designer based in Atlanta. focused on
-            computer networking, API consumption, integration, full-stack
-            development, IoT devices, and everything in between. Additionally, I
-            am a designer and tailor. My desgins inspiration stems from many
-            similarites I observe in technical and fashion design; allowing me
-            to bridge the gap for dynamiclly sophistocated tailored garments.
-            <div className=" d-flex justify-content-center">
-              <ul className="tools mr-3 ml-3">
-                <span> Tools</span>
-                <li>VS Code</li>
-                <li>Git/Github</li>
-                <li>Node.js</li>
-                <li>React.js</li>
-              </ul>
-
-              <ul className="tech mr-3 ml-3">
-                <span>Tech</span>
-                <li>JavaScript</li>
-                <li>Html/Css</li>
-                <li>Java</li>
-                <li>SQL/NoSQL</li>
-              </ul>
-            </div>
+        <div className="about-box mt-4 p-2 d-flex">
+          <p className="pr-3 about-me">
+            I'm a Full-Stack web developer based in Alpharetta. Focused on API
+            consumption, Animations and intrested in IoT devices, Design and
+            everything in between. Additionally, I am a garment engineer and
+            tailor. My desgins inspiration stems from many similarites I observe
+            in technical and fashion design; allowing me to bridge the gap for
+            dynamiclly sophistocated tailored garments.
+            <div className=" d-flex justify-content-center"></div>
           </p>
-          <div className="about-img-figure">
+          <div className="about-img-figure d-flex justify-content-center">
+            🚴🏽 🛩️
             <img
               src="/img/me.png"
               className="my-about-img"
               alt="photographed me"
-            />
+            />{" "}
+            🪡
           </div>
         </div>
       </div>

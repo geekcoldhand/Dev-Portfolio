@@ -26,8 +26,8 @@ export default function Cards(props) {
       {card.map((card) => (
         <div className="cards-box">
           <div className="my-card card py-5">
-            <button className="card-button p-1" href={card.gitLink}>
-              <div className="repo-icon ">
+            <div className="card-button p-1 d-flex justify-content-center">
+              <a className="repo-icon " href={card.gitLink}>
                 <svg
                   className="button-svg w-6 h-6"
                   fill="none"
@@ -42,14 +42,15 @@ export default function Cards(props) {
                     d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"
                   ></path>
                 </svg>
-              </div>
-            </button>
+              </a>
+            </div>
 
             <div className="card-body">
               <h5 className="card-title text-center">{card.projectName}</h5>
-              <div className="site-icon" id="icon">
+              {/* <div className="site-icon " id="icon">
                 {card.logoImg}
-              </div>
+              </div> */}
+              <img className="card-gif" src={card.demoGif} />
               <p className="card-text-box-p">{card.descript}</p>
               <hr />
               <p className="card-text"> xxxx | xxx | xxxx </p>
