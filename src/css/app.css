@@ -219,6 +219,7 @@ main {
 }
 .tech-box {
   flex-wrap: wrap;
+  width: 60%;
 }
 .skills {
   width: 80px;
@@ -256,6 +257,11 @@ main {
   box-shadow: var(--insetShadow);
   backdrop-filter: blur(10rem);
 }
+
+.card-skills {
+  width: 2rem;
+}
+
 .repo-icon:hover {
   transform: scale(1.3);
   color: var(--text-color);
@@ -368,9 +374,9 @@ main {
 
 .about img {
   width: 100%;
-
   overflow: visible;
-  border-radius: 85%;
+  border-radius: 6rem;
+  background: transparent;
   margin: 3%;
   box-shadow: 0rem 0rem 2.2rem var(--text-color),
     0rem 0rem 0rem 0.3rem var(--con-color),
@@ -378,7 +384,6 @@ main {
 }
 .about-img-figure {
   width: 9rem;
-  border-radius: 6rem;
   padding: 1rem;
   display: flex;
   height: 100%;
@@ -398,6 +403,7 @@ main {
 
 .my-about-img {
   background-image: url("/img/me.png");
+  border-radius: 6rem;
 }
 
 /* FOOTER */

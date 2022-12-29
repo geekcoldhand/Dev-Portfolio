@@ -22,17 +22,25 @@ export default function Tech() {
         </svg>
         Projects
       </h2>
-      <div className="tech-box d-flex justify-content-center">
-        <img className="skills" src="/img/skills/mongo.png" alt="MongoDB" />
-        <img className="skills" src="/img/skills/node.png" alt="Node" />
+      <div className="d-flex justify-content-center">
+        <div className="tech-box ">
+          {/* framework/lang */}
+          <img className="skills" src="/img/skills/mongo.png" alt="MongoDB" />
+          <img className="skills" src="/img/skills/node.png" alt="Node" />
+          {/* add html and css */}
 
-        <img className="skills" src="/img/skills/react.png" alt="React" />
-        <img className="skills" src="/img/skills/js.png" alt="Javascript" />
-        <img className="skills" src="/img/skills/gql.png" alt="GraphQl" />
+          <img className="skills" src="/img/skills/react.png" alt="React" />
+          <img className="skills" src="/img/skills/gql.png" alt="GraphQl" />
+          <img className="skills" src="/img/skills/mysql.png" alt="MySQL" />
+          <img className="skills" src="/img/skills/java.png" alt="Java" />
+          <img className="skills" src="/img/skills/js.png" alt="Javascript" />
 
-        <img className="skills" src="/img/skills/mysql.png" alt="MySQL" />
-        <img className="skills" src="/img/skills/java.png" alt="Java" />
-        <img className="skills" src="/img/skills/git.png" alt="Git" />
+          <img className="skills" src="/img/skills/html.png" alt="html" />
+          <img className="skills" src="/img/skills/css.png" alt="css" />
+          {/* tools */}
+          {/* add npm */}
+          <img className="skills" src="/img/skills/git.png" alt="Git" />
+        </div>
       </div>
     </div>
   );

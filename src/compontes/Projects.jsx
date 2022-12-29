@@ -12,6 +12,9 @@ export default function Projects() {
       siteLink: "https://whooooos-app.herokuapp.com/login",
       descript: "Real-time chatting application",
       id: 1223,
+      tech1: "/img/skills/socket.io.svg",
+      tech2: "/img/skills/hb.png",
+      tech3: "/img/skills/express.png",
     },
     // Wine N Dine project
     {
@@ -22,6 +25,23 @@ export default function Projects() {
       siteLink: "https://parsonjd.github.io/Wine-Dine/",
       descript: "Food & Cocktail filter search",
       id: 23344,
+      tech1: "/img/skills/hb.png",
+      tech2: "/img/skills/js.png",
+      tech3: "/img/skills/bootstrap.png",
+    },
+
+    // Tech Talk
+    {
+      projectName: "Tech Talk",
+      logoImg: "",
+      demoGif: "/img/demos/tTDEMO.gif",
+      gitLink: "https://github.com/geekcoldhand/Todays-Tech-Talk",
+      siteLink: "",
+      descript: "A blogging website for developers",
+      id: 45432,
+      tech1: "/img/skills/hb.png",
+      tech2: "/img/skills/js.png",
+      tech3: "/img/skills/mysql.png",
     },
     // Weather Wheel
     {
@@ -32,26 +52,22 @@ export default function Projects() {
       siteLink: "https://geekcoldhand.github.io/Weather-Color-Wheel/",
       descript: "Open weather API",
       id: 34322,
-    },
-    // Two-Due
-    {
-      projectName: "Two-Due",
-      logoImg: "📅",
-      demoGif: "/img/demos/two-due.gif",
-      gitLink: "https://github.com/geekcoldhand/TwoDue-Task-Manager",
-      siteLink: "https://geekcoldhand.github.io/TwoDue-Task-Manager/",
-      descript: "A TODO application",
-      id: 45432,
+      tech1: "/img/skills/openWeather.png",
+      tech2: "/img/skills/jQ.png",
+      tech3: "/img/skills/css.png",
     },
     // Js quiz
     {
-      projectName: "Dynamic JS Quiz",
+      projectName: "Portfolio",
       logoImg: "📝",
-      demoGif: "/img/demos/Js-quiz.gif",
-      gitLink: "https://github.com/geekcoldhand/js-dynamic-quiz",
-      siteLink: "https://geekcoldhand.github.io/js-dynamic-quiz/",
-      descript: "Timed javascript quiz",
+      demoGif: "/img/demos/portfolio-demo.gif",
+      gitLink: "https://github.com/geekcoldhand/Dev-Portfolio",
+      siteLink: "https://geekcoldhand.github.io/Dev-Portfolio/",
+      descript: "This portfolio",
       id: 56343,
+      tech1: "/img/skills/react.png",
+      tech2: "/img/skills/js.png",
+      tech3: "/img/skills/bootstrap.png",
     },
   ];
 

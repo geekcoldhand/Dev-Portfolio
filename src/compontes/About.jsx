@@ -38,13 +38,11 @@ export default function About() {
             <div className=" d-flex justify-content-center"></div>
           </p>
           <div className="about-img-figure d-flex justify-content-center">
-            🚴🏽 🛩️
             <img
               src="/img/me.png"
               className="my-about-img"
               alt="photographed me"
-            />{" "}
-            🪡
+            />
           </div>
         </div>
       </div>

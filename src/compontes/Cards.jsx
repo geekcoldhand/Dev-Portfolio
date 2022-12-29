@@ -47,13 +47,19 @@ export default function Cards(props) {
 
             <div className="card-body">
               <h5 className="card-title text-center">{card.projectName}</h5>
-              {/* <div className="site-icon " id="icon">
-                {card.logoImg}
-              </div> */}
+
               <img className="card-gif" src={card.demoGif} />
               <p className="card-text-box-p">{card.descript}</p>
               <hr />
-              <p className="card-text"> xxxx | xxx | xxxx </p>
+              <p className="card-text">
+                {" "}
+                <img
+                  className="card-skills m-1"
+                  src={card.tech1}
+                  alt=""
+                /> | <img className="card-skills m-1" src={card.tech2} alt="" />{" "}
+                | <img className="card-skills m-1" src={card.tech3} alt="" />
+              </p>
             </div>
           </div>
         </div>
