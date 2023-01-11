@@ -1,4 +1,15 @@
 import React from "react";
+import mongo from "../img/skills/mongo.png";
+import node from "../img/skills/node.png";
+import react from "../img/skills/react.png";
+import git from "../img/skills/git.png";
+import js from "../img/skills/js.png";
+import graphQl from "../img/skills/gql.png";
+import mySQL from "../img/skills/mysql.png";
+import html from "../img/skills/html.png";
+import css from "../img/skills/css.png";
+import java from "../img/skills/java.png";
+import boots from "../img/skills/bootstrap.png";
 
 export default function Tech() {
   return (
@@ -23,23 +34,25 @@ export default function Tech() {
         Projects
       </h2>
       <div className="d-flex justify-content-center">
-        <div className="tech-box ">
+        <div className="tech-box d-flex justify-content-evenly">
           {/* framework/lang */}
-          <img className="skills" src="/img/skills/mongo.png" alt="MongoDB" />
-          <img className="skills" src="/img/skills/node.png" alt="Node" />
+          <img className="skills" src={mongo} alt="MongoDB" />
+          <img className="skills" src={node} alt="Node" />
           {/* add html and css */}
 
-          <img className="skills" src="/img/skills/react.png" alt="React" />
-          <img className="skills" src="/img/skills/gql.png" alt="GraphQl" />
-          <img className="skills" src="/img/skills/mysql.png" alt="MySQL" />
-          <img className="skills" src="/img/skills/java.png" alt="Java" />
-          <img className="skills" src="/img/skills/js.png" alt="Javascript" />
+          <img className="skills" src={react} alt="React" />
+          <img className="skills" src={graphQl} alt="GraphQl" />
+          <img className="skills" src={mySQL} alt="MySQL" />
+          <img className="skills" src={java} alt="Java" />
+          <img className="skills" src={js} alt="Javascript" />
 
-          <img className="skills" src="/img/skills/html.png" alt="html" />
-          <img className="skills" src="/img/skills/css.png" alt="css" />
+          <img className="skills" src={html} alt="html" />
+          <img className="skills" src={css} alt="css" />
+          <img className="skills" src={boots} alt="bootstrap" />
+
           {/* tools */}
           {/* add npm */}
-          <img className="skills" src="/img/skills/git.png" alt="Git" />
+          <img className="skills" src={git} alt="Git" />
         </div>
       </div>
     </div>

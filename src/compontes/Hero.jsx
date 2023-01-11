@@ -17,17 +17,21 @@ export default function Hero() {
     console.log(rocketRef); // { current: div.box }
 
     tlm = gsap.timeline({});
+
     tlm.to(rocketRef.current, {
       duration: 0.4,
       scale: 1.2,
     });
     tlm.to(flameRef.current, {
       opacity: 0,
-      color: "orange",
+      color: "#77b599",
     });
     tlm.to(flameRef.current, {
       opacity: 1,
       color: "white",
+      scale: 1.1,
+      translateY: 0.5,
+      translateX: -0.5,
     });
 
     tlm.to(rocketRef.current, {
@@ -50,9 +54,13 @@ export default function Hero() {
     tlm.to(rocketRef.current, {
       opacity: 1,
       scale: 1,
-
       translateY: 0,
       translateX: 0,
+    });
+    tlm.to(flameRef.current, {
+      opacity: 0,
+      translateY: -1,
+      translateX: 0.5,
     });
   });
 
@@ -71,9 +79,10 @@ export default function Hero() {
           <div className="name">Horatious Harris</div>
 
           {/* <span className="overtrue">Developer & Designer </span> */}
-          <p className="hero-summary">
-            I'm a full-stack web development and designer. Bootcamp graduate
-            from Georgia Tech specializing in APIs, User Experience and
+          <p className="hero-summary text-center mx-auto">
+            I'm a Computer Scientist focused on
+            Full-Stack Web Development and Design. Specializing in Web Apps,
+            User Experience and Technical communications.
           </p>
         </div>
 

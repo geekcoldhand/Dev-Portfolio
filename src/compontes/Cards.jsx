@@ -1,9 +1,10 @@
 import React, { useRef, useEffect } from "react";
 
+
 export default function Cards(props) {
   const card = props.projectCards;
   const element = useRef(null);
-
+  console.log("propppps ", props)
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {

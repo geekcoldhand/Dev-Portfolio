@@ -1,4 +1,5 @@
 import React from "react";
+import me from "../img/me.png";
 
 export default function About() {
   const handleOnLoad = (e) => {
@@ -29,20 +30,15 @@ export default function About() {
 
         <div className="about-box mt-4 p-2 d-flex">
           <p className="pr-3 about-me">
-            I'm a Full-Stack web developer based in Alpharetta. Focused on API
-            consumption, Animations and intrested in IoT devices, Design and
-            everything in between. Additionally, I am a garment engineer and
-            tailor. My desgins inspiration stems from many similarites I observe
-            in technical and fashion design; allowing me to bridge the gap for
-            dynamiclly sophistocated tailored garments.
+            I'm a Full-Stack Web Developer based in Alpharetta. Focused on
+            Full-Stack Web Development and Design. Specializing in Web Apps,
+            User Experience and Technical communications. Intrested the
+            application of Iot devices in various garments and assessories. In
+            Addition to computer science, I am a garment engineer and tailor.
             <div className=" d-flex justify-content-center"></div>
           </p>
           <div className="about-img-figure d-flex justify-content-center">
-            <img
-              src="/img/me.png"
-              className="my-about-img"
-              alt="photographed me"
-            />
+            <img src={me} className="my-about-img" alt="photographed me" />
           </div>
         </div>
       </div>

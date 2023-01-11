@@ -100,7 +100,7 @@ header menu ul li {
 
 .hero {
   background-color: transparent;
-  background-image: url("/img/Nodes.svg");
+  background-image: url("../img/Nodes.svg");
   height: 100vh;
   padding-top: -5%;
   position: relative;
@@ -110,7 +110,8 @@ header menu ul li {
 }
 
 .hero-summary {
-  font-size: 0.4rem;
+  font-size: calc(4vw + 10px);
+  width: calc(40vw + 10px);
 }
 .rocket-ship {
   margin-inline: 3rem;
@@ -124,6 +125,7 @@ header menu ul li {
 
 .shipFire {
   color: var(--con-color);
+  opacity: 0;
 }
 
 /* hero text box */
@@ -136,7 +138,7 @@ header menu ul li {
   margin-right: auto;
   width: 70%;
   text-align: center;
-  font-size: 2em;
+  
   background-color: transparent;
   text-align: center;
   flex-direction: row;
@@ -145,7 +147,7 @@ header menu ul li {
 .intro {
   font-size: 2rem;
   font-weight: 100;
-  line-height: 1.4em;
+
   letter-spacing: 0.2rem;
 
   overflow: hidden;
@@ -219,7 +221,7 @@ main {
 }
 .tech-box {
   flex-wrap: wrap;
-  width: 60%;
+  width: 80%;
 }
 .skills {
   width: 80px;
@@ -374,7 +376,7 @@ main {
 
 .about img {
   width: 100%;
-  overflow: visible;
+  overflow: hidden;
   border-radius: 6rem;
   background: transparent;
   margin: 3%;
@@ -402,8 +404,10 @@ main {
 }
 
 .my-about-img {
-  background-image: url("/img/me.png");
+  border-collapse: separate;
   border-radius: 6rem;
+  overflow: hidden;
+  perspective: 1px;
 }
 
 /* FOOTER */
