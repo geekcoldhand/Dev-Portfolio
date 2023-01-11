@@ -24,6 +24,7 @@ body {
   font-family: "Bebas Neue", cursive;
 }
 
+
 .App {
   width: fit-content;
 }
@@ -63,13 +64,18 @@ header h1 {
 }
 .hi {
   letter-spacing: 0.2rem;
-  font-size: 1rem;
+  font-size: calc(1.3vw + 10px);
   justify-self: start;
 }
 .name {
   color: var(--con-color);
   font-family: var(--secFont);
   font-weight: 500;
+  font-size: calc(1vw + 10px);
+}
+
+.highlight {
+  color: var(--dub-color);
 }
 
 header menu {
@@ -110,13 +116,16 @@ header menu ul li {
 }
 
 .hero-summary {
-  font-size: calc(4vw + 10px);
-  width: calc(40vw + 10px);
+  font-size: calc(2vw + 10px);
+  width: calc(65vw + 10px);
+  font-family: var(--secFont);
 }
 .rocket-ship {
   margin-inline: 3rem;
   transform: rotate(10deg);
   color: var(--pop-color);
+  width: calc(14vw + 10px);
+  height: calc(14vw + 10px);
 }
 
 .shipWindow {
@@ -138,34 +147,29 @@ header menu ul li {
   margin-right: auto;
   width: 70%;
   text-align: center;
-  
+  font-size: calc(1vw);
   background-color: transparent;
   text-align: center;
   flex-direction: row;
 }
+
 /* hero text */
 .intro {
-  font-size: 2rem;
+  font-size: calc(1.3vw + 5px);
   font-weight: 100;
-
   letter-spacing: 0.2rem;
-
   overflow: hidden;
   height: 100%;
   margin-inline: auto;
   text-align: center;
-
   flex-wrap: wrap;
   white-space: wrap;
   animation: typing 2s steps(28);
 }
 .overtrue {
-  font-size: 2.2rem;
   font-weight: 900;
   line-height: 1.4em;
-
   text-align: center;
-
   flex-wrap: wrap;
   white-space: wrap;
   animation: typing 2s steps(28);
@@ -234,7 +238,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2%;
-  width: fit-content;
+  width: 100%;
   border-bottom: 0.1rem dashed var(--con-color);
 }
 .section-header {
@@ -426,6 +430,15 @@ footer {
   background-color: #2a2929;
 }
 
+.resume-pdf {
+  color: var(--con-color);
+  background: transparent;
+  border: none;
+}
+.resume-pdf:hover {
+  color: var(--text-color);
+}
+
 .footerLinksList {
   width: 80%;
   display: flex;
@@ -438,9 +451,7 @@ footer {
   .overtrue {
     font-size: 4.4rem;
   }
-  .intro {
-    font-size: 4rem;
-  }
+
   .about-box {
     flex-direction: row;
     align-items: start;
@@ -451,13 +462,6 @@ footer {
   }
   .right-box {
     flex-direction: row;
-  }
-
-  .hello-box {
-    width: 100%;
-  }
-  .hello-box p {
-    font-size: 1.7rem;
   }
 
   .skills {

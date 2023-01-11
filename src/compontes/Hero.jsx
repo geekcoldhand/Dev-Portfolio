@@ -1,9 +1,7 @@
-import React, { useState, useEffect, useRef, useLayoutEffect } from "react";
+import React, { useState, useRef, useLayoutEffect } from "react";
 import Header from "./Header";
 import gsap from "gsap";
-// const rocket = document.querySelector("rocketShip");
-const rocketFlame = document.querySelector("shipFire");
-const rocketBody = document.querySelector("shipBody");
+
 
 export default function Hero() {
   const [text, setText] = useState("");
@@ -23,6 +21,7 @@ export default function Hero() {
       scale: 1.2,
     });
     tlm.to(flameRef.current, {
+      duration: 0.1,
       opacity: 0,
       color: "#77b599",
     });
@@ -31,14 +30,14 @@ export default function Hero() {
       color: "white",
       scale: 1.1,
       translateY: 0.5,
-      translateX: -0.5,
+      translateX: -.5,
     });
 
     tlm.to(rocketRef.current, {
       translateY: -450,
-      translateX: 950,
+      translateX: 1150,
       opacity: 0.2,
-      duration: 1,
+      duration: .5,
       scale: 0.1,
     });
     tlm.to(flameRef.current, {
@@ -46,7 +45,7 @@ export default function Hero() {
       color: "#77b599",
     });
     tlm.to(rocketRef.current, {
-      opacity: 1,
+      opacity: .1,
       translateY: 450,
       translateX: -750,
       duration: 0.5,
@@ -78,18 +77,19 @@ export default function Hero() {
         <div className="intro d-flex flex-column justify-content-center ">
           <div className="name">Horatious Harris</div>
 
-          {/* <span className="overtrue">Developer & Designer </span> */}
           <p className="hero-summary text-center mx-auto">
-            I'm a Computer Scientist focused on
-            Full-Stack Web Development and Design. Specializing in Web Apps,
+            I'm a Computer Scientist focused on <span className="highlight">
+            Full-Stack Web Development and Design
+            </span>
+            . Specializing in Web Apps,
             User Experience and Technical communications.
           </p>
         </div>
 
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="70"
-          height="70"
+          width="170"
+          height="170"
           fill="currentColor"
           onClick={handleClick.bind(this, 1)}
           className="bi bi-rocket-takeoff rocket-ship"
