@@ -1,9 +1,9 @@
 {
-  "main.css": "/Dev-Portfolio/static/css/main.a0bb62d1.chunk.css",
-  "main.js": "/Dev-Portfolio/static/js/main.abfee28f.chunk.js",
-  "main.js.map": "/Dev-Portfolio/static/js/main.abfee28f.chunk.js.map",
-  "static/js/1.4620a949.chunk.js": "/Dev-Portfolio/static/js/1.4620a949.chunk.js",
-  "static/js/1.4620a949.chunk.js.map": "/Dev-Portfolio/static/js/1.4620a949.chunk.js.map",
+  "main.css": "/Dev-Portfolio/static/css/main.21ee37d8.chunk.css",
+  "main.js": "/Dev-Portfolio/static/js/main.38c32282.chunk.js",
+  "main.js.map": "/Dev-Portfolio/static/js/main.38c32282.chunk.js.map",
+  "static/js/1.38a2b8c1.chunk.js": "/Dev-Portfolio/static/js/1.38a2b8c1.chunk.js",
+  "static/js/1.38a2b8c1.chunk.js.map": "/Dev-Portfolio/static/js/1.38a2b8c1.chunk.js.map",
   "runtime~main.js": "/Dev-Portfolio/static/js/runtime~main.c75c533b.js",
   "runtime~main.js.map": "/Dev-Portfolio/static/js/runtime~main.c75c533b.js.map",
   "static/media/js.png": "/Dev-Portfolio/static/media/js.0cded3a3.png",
@@ -26,9 +26,10 @@
   "static/media/gql.png": "/Dev-Portfolio/static/media/gql.2452f533.png",
   "static/media/html.png": "/Dev-Portfolio/static/media/html.5e37495b.png",
   "static/media/java.png": "/Dev-Portfolio/static/media/java.cf6f124d.png",
+  "static/media/Horatious.resume ATS .pdf": "/Dev-Portfolio/static/media/Horatious.resume ATS .94c436fc.pdf",
   "static/media/app.css": "/Dev-Portfolio/static/media/Nodes.2306183b.svg",
-  "static/css/main.a0bb62d1.chunk.css.map": "/Dev-Portfolio/static/css/main.a0bb62d1.chunk.css.map",
+  "static/css/main.21ee37d8.chunk.css.map": "/Dev-Portfolio/static/css/main.21ee37d8.chunk.css.map",
   "index.html": "/Dev-Portfolio/index.html",
-  "precache-manifest.c48befae194100b181e76e5b18df1632.js": "/Dev-Portfolio/precache-manifest.c48befae194100b181e76e5b18df1632.js",
+  "precache-manifest.97f0dfa4a0d18fbbb2081ca770b74656.js": "/Dev-Portfolio/precache-manifest.97f0dfa4a0d18fbbb2081ca770b74656.js",
   "service-worker.js": "/Dev-Portfolio/service-worker.js"
 }
