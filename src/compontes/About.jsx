@@ -29,12 +29,27 @@ export default function About() {
         </h2>
 
         <div className="about-box mt-4 p-2 d-flex">
-          <p className="pr-3 about-me">
-            I'm a Full-Stack Web Developer based in Alpharetta. Focused on
-            Full-Stack Web Development and Design. Specializing in Web Apps,
-            User Experience and Technical communications. Intrested the
-            application of Iot devices in various garments and assessories. In
-            Addition to computer science, I am a garment engineer and tailor.
+          <p className="px-3 about-me text-start">
+            I am a Full-Stack Web Developer based in Alpharetta, GA. I am
+            focused on Web Development and Design while specializing in web apps
+            and technical communications.
+            <br />
+            <br />
+            My introduction to programming arrived around my 14th birthday; my
+            dad showed me the basics of C++ in Visual Studio. I remember
+            struggling to wrap my childish senses around OOP principles like
+            'Classes' at our kitchen table, but I had one objective, build a
+            math homework app. With that, I created the Homework Helper, Go Clo,
+            and succeeded in teaching my friend Chase how to program a
+            text-based game.
+            <br />
+            <br />
+            Those days, and more alike, broaden my perspective on the
+            fundamentals while largely influencing my understanding and
+            technical communication skills. To this day, I continuously lean
+            into my passion for learning and teaching new technologies. My past
+            experiences have disciplined me to become a quick learner, problem
+            solver, and valuable team player.
             <div className=" d-flex justify-content-center"></div>
           </p>
           <div className="about-img-figure d-flex justify-content-center">

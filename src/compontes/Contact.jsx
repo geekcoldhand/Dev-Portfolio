@@ -42,7 +42,7 @@ function Contact() {
   };
 
   return (
-    <div>
+    <div className="mx-auto">
       <h2 className=" section-header space-section text-center" id="contact">
         <svg
           className="w-6 h-6"

@@ -26,7 +26,7 @@ body {
 
 
 .App {
-  width: fit-content;
+  overflow: hiddenç;
 }
 /* link color */
 a {
@@ -64,18 +64,19 @@ header h1 {
 }
 .hi {
   letter-spacing: 0.2rem;
-  font-size: calc(1.3vw + 10px);
+  font-size: calc(1.5vw + 5px);
   justify-self: start;
 }
 .name {
   color: var(--con-color);
   font-family: var(--secFont);
   font-weight: 500;
-  font-size: calc(1vw + 10px);
+  font-size: calc(3.7vw + 15px);
 }
 
 .highlight {
   color: var(--dub-color);
+  font-weight: 400;
 }
 
 header menu {
@@ -116,7 +117,7 @@ header menu ul li {
 }
 
 .hero-summary {
-  font-size: calc(2vw + 10px);
+  font-size: calc(1vw + 10px);
   width: calc(65vw + 10px);
   font-family: var(--secFont);
 }
@@ -124,8 +125,8 @@ header menu ul li {
   margin-inline: 3rem;
   transform: rotate(10deg);
   color: var(--pop-color);
-  width: calc(14vw + 10px);
-  height: calc(14vw + 10px);
+  width: calc(12vw + 10px);
+  height: calc(12vw + 10px);
 }
 
 .shipWindow {
@@ -253,8 +254,9 @@ main {
 
 .my-card {
   border-radius: 15rem;
-  width: 22rem;
-  height: 32rem;
+  width: calc(57vw + 1px);
+  max-width: 20rem;
+  height:calc(57vh + 1px);
   justify-content: center;
   align-items: center;
   margin-block: 1%;
@@ -366,10 +368,10 @@ main {
   border-bottom: 0.1rem dashed var(--con-color);
 }
 .about-me {
-  line-height: 3.4rem;
+  line-height: calc(2vh + 10px);
   letter-spacing: 0.1rem;
   font-family: var(--secFont);
-  font-size: 1.8rem;
+  font-size: 1rem;
   font-weight: 100;
   width: 75%;
 }
@@ -379,9 +381,10 @@ main {
 }
 
 .about img {
-  width: 100%;
+  width: calc(19vw + 5px);
+  
   overflow: hidden;
-  border-radius: 6rem;
+  border-radius: 100%;
   background: transparent;
   margin: 3%;
   box-shadow: 0rem 0rem 2.2rem var(--text-color),
@@ -389,10 +392,10 @@ main {
     0rem 0rem 0rem 0.6rem var(--pop-color), 0rem 0rem 0rem 0.9rem var(--accent);
 }
 .about-img-figure {
-  width: 9rem;
+  /* width: calc(17vw + 1px);; */
   padding: 1rem;
-  display: flex;
-  height: 100%;
+  /* display: flex;
+  height: calc(17vh + 1px); */
   justify-content: space-around;
 }
 

@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "abfee28fc5643a82937b",
-    "url": "/Dev-Portfolio/static/css/main.a0bb62d1.chunk.css"
+    "revision": "0f3bfb87bcd3e02c508b",
+    "url": "/Dev-Portfolio/static/css/main.5c2e5a5c.chunk.css"
   },
   {
-    "revision": "abfee28fc5643a82937b",
-    "url": "/Dev-Portfolio/static/js/main.abfee28f.chunk.js"
+    "revision": "0f3bfb87bcd3e02c508b",
+    "url": "/Dev-Portfolio/static/js/main.0f3bfb87.chunk.js"
   },
   {
-    "revision": "4620a94911b6f48ca4d3",
-    "url": "/Dev-Portfolio/static/js/1.4620a949.chunk.js"
+    "revision": "6f86936bf90e2a060ac1",
+    "url": "/Dev-Portfolio/static/js/1.6f86936b.chunk.js"
   },
   {
     "revision": "c75c533bf3b178718a52",
@@ -96,11 +96,15 @@ self.__precacheManifest = [
     "url": "/Dev-Portfolio/static/media/java.cf6f124d.png"
   },
   {
+    "revision": "94c436fc2418cf8e3100d15707e54be6",
+    "url": "/Dev-Portfolio/static/media/Horatious.resume ATS .94c436fc.pdf"
+  },
+  {
     "revision": "2306183bbfe3a68f9fe63aa839afd292",
     "url": "/Dev-Portfolio/static/media/Nodes.2306183b.svg"
   },
   {
-    "revision": "c89a5168fd116d12e8d750fb37b80ba1",
+    "revision": "c863c70fb07fcfaff63501f3bf336783",
     "url": "/Dev-Portfolio/index.html"
   }
 ];
