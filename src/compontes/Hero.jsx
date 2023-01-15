@@ -33,7 +33,7 @@ export default function Hero() {
     tlm.to(rocketRef.current, {
       translateY: -450,
       translateX: 1150,
-      opacity: 0.2,
+      opacity: 0,
       duration: 0.5,
       scale: 0.1,
     });

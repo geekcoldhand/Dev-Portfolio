@@ -42,7 +42,7 @@ function Contact() {
   };
 
   return (
-    <div className="mx-auto">
+    <div className="contact ">
       <h2 className=" section-header space-section text-center" id="contact">
         <svg
           className="w-6 h-6"
@@ -62,8 +62,8 @@ function Contact() {
         Contact
       </h2>
 
-      <div className=" d-flex justify-content-center flex-column">
-        <div className="d-flex justify-content-center ">
+      <div className="d-flex justify-content-center flex-column">
+        <div className="d-flex justify-content-center flex-column">
           <label htmlFor="">resume</label>
           <button className="resume-pdf" onClick={handleResumeClick}>
             <svg

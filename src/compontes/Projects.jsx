@@ -1,25 +1,21 @@
 import React, { useState } from "react";
 import Cards from "./Cards";
 
-import socketIO from "../img/skills/socket.io.svg"
-import whosapp from "../img//demos/Who's App.demo.gif"
-import handleBars from "../img/skills/hb.png"
-import mysql from "../img/skills/mysql.png"
-import winendine from "../img//demos/DrinksDemo.gif"
-import js from "../img/skills/js.png"
-import express from "../img/skills/express.png"
+import socketIO from "../img/skills/socket.io.svg";
+import whosapp from "../img//demos/Who's App.demo.gif";
+import handleBars from "../img/skills/hb.png";
+import mysql from "../img/skills/mysql.png";
+import winendine from "../img//demos/DrinksDemo.gif";
+import js from "../img/skills/js.png";
+import express from "../img/skills/express.png";
 import boots from "../img/skills/bootstrap.png";
 import openWeather from "../img/skills/openWeather.png";
 import jquery from "../img/skills/jQ.png";
 import css from "../img/skills/css.png";
 import react from "../img/skills/react.png";
-import techTalk from "../img/demos/ttDemo.gif"
-import weatherWheel from "../img/demos/Weather-Wheel-Demo.gif"
-import portfolio from "../img/demos/portfolio-demo.gif"
-
-
-
-
+import techTalk from "../img/demos/ttDemo.gif";
+import weatherWheel from "../img/demos/Weather-Wheel-Demo.gif";
+import portfolio from "../img/demos/portfolio-demo.gif";
 
 export default function Projects() {
   const allProjects = [
@@ -95,6 +91,25 @@ export default function Projects() {
 
   return (
     <section className="space-section  d-flex justify-content-center flex-column project-box">
+      <h2 className="space-section section-header text-center " id="projects">
+        {" "}
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          width="30px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"
+          ></path>
+        </svg>
+        Projects
+      </h2>
       <Cards key={projects.id} projectCards={projects} />
     </section>
   );

@@ -13,8 +13,8 @@ import boots from "../img/skills/bootstrap.png";
 
 export default function Tech() {
   return (
-    <div className=" d-flex p-3 justify-content-center flex-column">
-      <h2 className="space-section section-header text-center " id="projects">
+    <div className=" d-flex p-3 justify-content-center align-items-center flex-column">
+      <h2 className="space-section section-header text-center" id="skills">
         {" "}
         <svg
           className="w-6 h-6"
@@ -31,28 +31,81 @@ export default function Tech() {
             d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
           ></path>
         </svg>
-        Projects
+        Skills
       </h2>
       <div className="d-flex justify-content-center">
         <div className="tech-box d-flex justify-content-evenly">
           {/* framework/lang */}
-          <img className="skills" src={mongo} alt="MongoDB" />
-          <img className="skills" src={node} alt="Node" />
+          <div className="d-flex flex-column justify-content-center">
+            <img className="skills" src={mongo} alt="MongoDB" />
+            <label className="text-center" htmlFor="">
+              MongoDB
+            </label>
+          </div>
+          <div className="d-flex flex-column">
+            <img className="skills" src={node} alt="Node" />
+            <label className="text-center" htmlFor="">
+              Node
+            </label>
+          </div>
           {/* add html and css */}
-
-          <img className="skills" src={react} alt="React" />
-          <img className="skills" src={graphQl} alt="GraphQl" />
-          <img className="skills" src={mySQL} alt="MySQL" />
-          <img className="skills" src={java} alt="Java" />
-          <img className="skills" src={js} alt="Javascript" />
-
-          <img className="skills" src={html} alt="html" />
-          <img className="skills" src={css} alt="css" />
-          <img className="skills" src={boots} alt="bootstrap" />
+          <div className="d-flex flex-column">
+            <img className="skills" src={react} alt="React" />
+            <label className="text-center" htmlFor="">
+              React
+            </label>
+          </div>
+          <div className="d-flex flex-column">
+            <img className="skills" src={graphQl} alt="GraphQl" />
+            <label className="text-center" htmlFor="">
+              GraphQL
+            </label>
+          </div>
+          <div className="d-flex flex-column">
+            <img className="skills" src={mySQL} alt="MySQL" />
+            <label className="text-center" htmlFor="">
+              MySQL
+            </label>
+          </div>
+          <div className="d-flex flex-column">
+            <img className="skills" src={java} alt="Java" />
+            <label className="text-center" htmlFor="">
+              Java
+            </label>
+          </div>
+          <div className="d-flex flex-column">
+            <img className="skills" src={js} alt="Javascript" />
+            <label className="text-center" htmlFor="">
+              Javascript
+            </label>
+          </div>
+          <div className="d-flex flex-column">
+            <img className="skills" src={html} alt="html" />
+            <label className="text-center" htmlFor="">
+              html
+            </label>
+          </div>
+          <div className="d-flex flex-column">
+            <img className="skills" src={css} alt="css" />
+            <label className="text-center" htmlFor="">
+              CSS
+            </label>
+          </div>
+          <div className="d-flex flex-column">
+            <img className="skills" src={boots} alt="bootstrap" />
+            <label className="text-center" htmlFor="">
+              Bootstrap
+            </label>
+          </div>
 
           {/* tools */}
           {/* add npm */}
-          <img className="skills" src={git} alt="Git" />
+          <div className="d-flex flex-column">
+            <img className="skills" src={git} alt="Git" />
+            <label className="text-center" htmlFor="">
+              Git
+            </label>
+          </div>
         </div>
       </div>
     </div>

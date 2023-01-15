@@ -1,5 +1,6 @@
 import React from "react";
 import me from "../img/me.png";
+import homeworkH from "../img/demos/hh2014.png";
 
 export default function About() {
   const handleOnLoad = (e) => {
@@ -30,26 +31,24 @@ export default function About() {
 
         <div className="about-box mt-4 p-2 d-flex">
           <p className="px-3 about-me text-start">
-            I am a Full-Stack Web Developer based in Alpharetta, GA. I am
-            focused on Web Development and Design while specializing in web apps
-            and technical communications.
+            I am a MERN full-stack developer based in Alpharetta, GA. I
+            discovered a love for embedded programming languages( java and c++)
+            in high school from my dad. That excitement led to me majoring in
+            Computer Science, growing my focus toward web development.
             <br />
             <br />
-            My introduction to programming arrived around my 14th birthday; my
-            dad showed me the basics of C++ in Visual Studio. I remember
-            struggling to wrap my childish senses around OOP principles like
-            'Classes' at our kitchen table, but I had one objective, build a
-            math homework app. With that, I created the Homework Helper, Go Clo,
-            and succeeded in teaching my friend Chase how to program a
-            text-based game.
+            Hours of preparation for hackathons, app competitions, and tech
+            conferences have comforted me in fast pace learning and
+            collaborative environments. Diversity and collaboration gravitate me
+            the most toward programming. My drive for clear communication,
+            positivity, and problem-solving attitude make me a valuable team
+            player. 
             <br />
             <br />
-            Those days, and more alike, broaden my perspective on the
-            fundamentals while largely influencing my understanding and
-            technical communication skills. To this day, I continuously lean
-            into my passion for learning and teaching new technologies. My past
-            experiences have disciplined me to become a quick learner, problem
-            solver, and valuable team player.
+            To this day, I lean into my passion for learning, teaching,
+            and discussing new technologies. Tech has disciplined me to
+            compartmentalize large-scale problems, learn rapidly through intense
+            focus, and contribute valuable tested features.
             <div className=" d-flex justify-content-center"></div>
           </p>
           <div className="about-img-figure d-flex justify-content-center">

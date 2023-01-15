@@ -24,9 +24,8 @@ body {
   font-family: "Bebas Neue", cursive;
 }
 
-
 .App {
-  overflow: hiddenç;
+  overflow: hidden;
 }
 /* link color */
 a {
@@ -71,7 +70,7 @@ header h1 {
   color: var(--con-color);
   font-family: var(--secFont);
   font-weight: 500;
-  font-size: calc(3.7vw + 15px);
+  font-size: calc(3.6vw + 8px);
 }
 
 .highlight {
@@ -122,6 +121,8 @@ header menu ul li {
   font-family: var(--secFont);
 }
 .rocket-ship {
+  position: absolute;
+  top: 140%;
   margin-inline: 3rem;
   transform: rotate(10deg);
   color: var(--pop-color);
@@ -141,7 +142,7 @@ header menu ul li {
 /* hero text box */
 .hello-box {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 0%;
   right: 0%;
   margin-left: auto;
@@ -197,8 +198,12 @@ main {
   margin-inline: auto;
   padding-inline: auto;
 }
+.contact {
+  width: 70%;
+  margin-inline: auto;
+}
+
 .contact-card {
-  width: 30rem;
   border-radius: 1rem;
 }
 
@@ -230,6 +235,7 @@ main {
 }
 .skills {
   width: 80px;
+  height: 80px;
   object-fit: contain;
 }
 
@@ -245,6 +251,11 @@ main {
 .section-header {
   font-size: 2rem;
   color: var(--con-color);
+  /* text-decoration: underline; */
+}
+.underline {
+  color: var(--pop-color);
+  text-decoration: wavy;
 }
 
 .space-section {
@@ -256,7 +267,7 @@ main {
   border-radius: 15rem;
   width: calc(57vw + 1px);
   max-width: 20rem;
-  height:calc(57vh + 1px);
+  height: 30rem;
   justify-content: center;
   align-items: center;
   margin-block: 1%;
@@ -378,11 +389,20 @@ main {
 
 .about p {
   color: rgb(226, 239, 232);
+  text-align: justify;
 }
 
-.about img {
+.about-feat-img {
+  width: calc(14vw + 10px);
+  border-radius: .6rem;
+  shape-outside: circle(10%);
+
+}
+
+.about-img-figure {
+  /* width: calc(17vw + 1px);; */
+  justify-content: space-around;
   width: calc(19vw + 5px);
-  
   overflow: hidden;
   border-radius: 100%;
   background: transparent;
@@ -390,13 +410,6 @@ main {
   box-shadow: 0rem 0rem 2.2rem var(--text-color),
     0rem 0rem 0rem 0.3rem var(--con-color),
     0rem 0rem 0rem 0.6rem var(--pop-color), 0rem 0rem 0rem 0.9rem var(--accent);
-}
-.about-img-figure {
-  /* width: calc(17vw + 1px);; */
-  padding: 1rem;
-  /* display: flex;
-  height: calc(17vh + 1px); */
-  justify-content: space-around;
 }
 
 .about-box {
@@ -469,5 +482,6 @@ footer {
 
   .skills {
     width: 100px;
+    height: 100px;
   }
 }
