@@ -63,8 +63,8 @@ function Contact() {
       </h2>
 
       <div className="d-flex justify-content-center flex-column">
-        <div className="d-flex justify-content-center flex-column">
-          <label htmlFor="">resume</label>
+        <div className="d-flex justify-content-center flex-column align-items-center">
+         
           <button className="resume-pdf" onClick={handleResumeClick}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -81,6 +81,7 @@ function Contact() {
               resume
             </svg>
           </button>
+          <label htmlFor="">resume</label>
         </div>
         <form
           ref={form}

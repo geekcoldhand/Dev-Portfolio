@@ -13,7 +13,7 @@ import boots from "../img/skills/bootstrap.png";
 
 export default function Tech() {
   return (
-    <div className=" d-flex p-3 justify-content-center align-items-center flex-column">
+    <div className="all-skills d-flex p-3 justify-content-center align-items-center flex-column">
       <h2 className="space-section section-header text-center" id="skills">
         {" "}
         <svg

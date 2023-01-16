@@ -67,7 +67,7 @@ export default function Hero() {
 
   const handleClick = () => {
     // tlm.resume();
-    runRocket()
+    runRocket();
   };
 
   return (
@@ -80,9 +80,8 @@ export default function Hero() {
           <p className="name text-left">Horatious Harris II</p>
 
           <p className="hero-summary text-left mx-auto">
-            I'm a web developer focused on Full-Stack Web Development and Design
-            . Specializing in Web Apps, User Experience and Technical
-            communications.
+            I'm a web developer focused on full-stack web development and design
+            . Specializing in web apps using the MERN stack.
           </p>
         </div>
 
